@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<script src="https://d3js.org/d3.v5.min.js"></script>
+		<script src="https://d3js.org/d3-array.v2.min.js"></script>
+        <!-- script src="d3/d3-array.js" defer></script -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.js" defer></script>
+		<script src="vis1.js" defer></script>
+        <script src="vis2.js" defer></script>
+		<script src="vis3.js" defer></script>
+		<script src="main.js" defer></script>
+		
+	</head>
+	<body>
+		<div>Sbj286 Mini Project 2: Temporal Data</div>
+		<div><P>Visualization 1: a) How does the amount donated vs. amount received change over time for each country?; 
+		b) Are there countries that mostly send or mostly receive and countries that have a similar amount of donations they receive and send?; 
+		c) Are there countries that change their role over time? That is, they used to mostly send donations and turn into mostly receiving donations and vice-versa?; 
+		d) Are there countries in which you can find a sudden increase ("peak") or a sudden decrease ("valley")?</p>
+		<p>The above question can be solved by using a heatmap as we can show the relation for every country. <br>X axis gives the year and Y axis gives the country. The color hue and intensity shows the net amount.</p></div>
+		<div id="vis1"></div>
+		<div>Visualisation 2: Focus on the top 10 Coalesced Purposes of donations (in terms of amount of disbursement across all countries and all time). 
+		What are the top 10 purposes of disbursements (in terms of total amount of disbursement) and how does their relative amount compare over time?
+		<p>The above question can be solved by using a percentage stacked bar chart.<br>X axis gives the year and Y axis gives the proportion of amount disbursed. The color hue gives Top 10 purposes.</p></div>
+		<div id="vis2"></div>
+		<div>Visualisation 3: Focusing exclusively on countries that receive donations, how do donations shift geographically over time? Do donations tend to be always in the same regions of the world over the years or they have been shifting over time? 
+		Can you build a visualization that shows the history of donations so that one can get a sense of which regions of the world have had more need for donations over the years? </div>
+		<p>The above question can be solved by using a heatmap as we can show the relation for every country. <br>X axis gives the year and Y axis gives the country. The color hue and intensity shows the amount received.</p></div>
+		<div id="vis3"></div>
+	</body>
+</html>
+
